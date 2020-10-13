@@ -42,6 +42,7 @@ function findWater(array) {
     }
     console.log("arrStep", arrStep );
     console.log("arrdepht", arrdepht);
+    
     let water = 0
 
  arrdepht.forEach(function (el) {
@@ -59,12 +60,12 @@ function findWater(array) {
 }
 
 console.log(findWater([2, 5, 1, 3, 1, 2, 1, 7, 7, 6])) // 17
-// console.log(findWater([7, 0, 1, 3, 4, 1, 2, 1])) // 9
-// console.log(findWater([10, 0, 5, 5, 5, 0, 1, 5, 0, 0])) // 14
-// console.log(findWater([100, 0, 5, 6, 8, 0])) // 13
-// console.log(findWater([2, 1, 5, 0, 3, 4, 7, 2, 3, 1, 0])) // 10
-// console.log(findWater([7, 0, 1, 3, 4, 1, 2, 1])) // 9
-// console.log(findWater([2, 1, 5, 0, 3, 4, 7, 2, 3, 1, 0])) // 10
-// console.log(findWater([2, 2, 1, 2, 2, 3, 0, 1, 2])) // 4
-// console.log(findWater([2, 1, 5, 0, 3, 4, 7, 2, 3, 1, 8])) // 24
-// console.log(findWater([2, 2, 2, 2, 2])) // 0
+console.log(findWater([7, 0, 1, 3, 4, 1, 2, 1])) // 9
+console.log(findWater([10, 0, 5, 5, 5, 0, 1, 5, 0, 0])) // 14
+console.log(findWater([100, 0, 5, 6, 8, 0])) // 13
+console.log(findWater([2, 1, 5, 0, 3, 4, 7, 2, 3, 1, 0])) // 10
+console.log(findWater([7, 0, 1, 3, 4, 1, 2, 1])) // 9
+console.log(findWater([2, 1, 5, 0, 3, 4, 7, 2, 3, 1, 0])) // 10
+console.log(findWater([2, 2, 1, 2, 2, 3, 0, 1, 2])) // 4
+console.log(findWater([2, 1, 5, 0, 3, 4, 7, 2, 3, 1, 8])) // 24
+console.log(findWater([2, 2, 2, 2, 2])) // 0
