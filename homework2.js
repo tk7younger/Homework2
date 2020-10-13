@@ -1,7 +1,7 @@
 function findWater(array) {
     var array = array
     let indexOfRock = [0]
-// [ 2, 6, 1, 3, 5 ] => [ 0, 0, 1, 3 ]
+
     array.forEach(function (el, i, arr) {
         if (el > arr[i - 1]) {
             indexOfRock.push(i)
